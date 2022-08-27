@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(220, 233, 234) ;
+    
+  
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: burlywood;
+    padding:3px;
+}
+header nav a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+header nav a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    font-weight: 500px;
+    
+}
+nav{
+    margin-bottom: 5px;
+}
+p{
+    font-weight: 600;
+    font-size: 13px
+}
+.smallpara{
+    font-size: 20px;
+}
+
+.adithyahrudayam{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.addplus{
+    font-size: 50px;
+}
+.addplusbutton{
+    border: 0px;
+    background-color:rgb(220, 233, 234) ;
+}
+.addplus1{
+    font-size: 20px;
+}
+table,th,td{
+    border: 3px solid balck;
+}

@@ -1,0 +1,419 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title> navagraha stotram </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../slokas/slokas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .row1{
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            align-items: baseline;
+        }
+        .count1{
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            align-items: center;
+        }
+        .number0{
+            margin-top: 20px;;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+                <h1> Slokas </h1>
+                <nav>
+                  <a href="../slokas/adityahrudhayam.html" >Adithya Hrudayam</a>
+                  <a href="../slokas/navagraha_stotram.html" >Navagraha Sotram</a>
+                  <a href="../slokas/durgadevi_stotram.html" >Durgadevi Stotram</a>
+                </nav>
+                </header>
+                <h1>Navagraha Stotram</h1>
+        <div class="heading1">
+                <h2>నవగ్రహస్తోత్రమ్ -వేదవ్యాస మహర్షి</h2>
+               </div>
+               <div class="newtable">
+               <div class="row1">
+                   <div class="name1">సూర్య</div>
+                   <div class="sloka1">జపాకుసుమ సంకాశం | కాశ్యపేయం మహాద్యుతిం <br>తమోరిం సర్వపాపఘ్నం | ప్రణతోస్మి దివాకరం</div>
+                   <div class="count1">
+                       <div>7 సార్లు||</div>
+                        <div><h2 id="counter1"></h2></div>
+                        <div>
+                        <button onclick="increment1()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                        <button onclick="reset1()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                        <button onclick="decrement1()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>చంద్ర</div>
+                   <div>దధిశంఖ తుషారాభం | క్షీరోదార్ణవ సంభవం |<br>
+                       నమామి శశినం సోమం | శంభోర్మకుట భూషణం ||
+                   </div>
+                   <div class="count1">
+                       <div>10 సార్లు||</div>
+                        <div><h2 id="counter2"></h2></div>
+                        <div>
+                        <button onclick="increment2()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                        <button onclick="reset2()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                        <button onclick="decrement2()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>కుజ</div>
+                   <div>ధరణీగర్భ సంభూతం | విద్యుత్కాంతి సమప్రభం<br>
+                       కుమారం శక్తి హస్తం | తం మంగళం ప్రణమామ్యహం ||
+                   </div>
+                   <div class="count1">
+                       <div>6 సార్లు||</div>
+                        <div><h2 id="counter3"></h2></div>
+                        <div>
+                        <button onclick="increment3()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                        <button onclick="reset3()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                        <button onclick="decrement3()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>బుధ</div>
+                   <div>ప్రియంగు గుళికాశ్యామం | రూపేణ ప్రతిమంబుధం |<br>
+                       సౌమ్యం సౌమ్యగుణోపేతం | తం బుధం ప్రణమామ్యహం ||
+                   </div>
+                   <div class="count1">
+                       <div>17 సార్లు||</div>
+                        <div><h2 id="counter4">0</h2></div>
+                        <div>
+                        <button onclick="increment4()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                        <button onclick="reset4()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                        <button onclick="decrement4()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>గురు</div>
+                   <div>దేవానాంచ ఋషీణాంచ | గురుం కాంచన సన్నిభం |<br>
+                       బుద్దిమంతం త్రిలోకేశం | తం నమామి బృహస్పతిం ||
+                   </div>
+                   <div class="count1">
+                       <div>16 సార్లు||</div>
+                        <div><h2 id="counter5">0</h2></div>
+                        <div>
+                           <button onclick="increment5()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                           <button onclick="reset5()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                           <button onclick="decrement5()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>శుక్ర</div>
+                   <div>హిమకుంద మృణాలాభం | దైత్యానాం పరమం గురుం |<br>
+                       సర్వశాస్త్ర ప్రవక్తారం | భార్గవం ప్రణమామ్యహం ||
+                   </div>
+                   <div class="count1">
+                       <div>20 సార్లు||</div>
+                        <div><h2 id="counter6">0</h2></div>
+                        <div>
+                           <button onclick="increment6()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                           <button onclick="reset6()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                           <button onclick="decrement6()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>శని</div>
+                   <div>నీలాంజన సమాభాసం | రవిపుత్రం యమాగ్రజం |<br>
+                       ఛాయామార్తాండ సంభూతం తం నమామి శనైశ్చరం ||
+                   </div>
+                   <div class="count1">
+                       <div>19 సార్లు||</div>
+                        <div><h2 id="counter7">0</h2></div>
+                        <div>
+                           <button onclick="increment7()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                           <button onclick="reset7()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                           <button onclick="decrement7()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>రాహు</div>
+                   <div>అర్ధకాయం మహావీరం | చంద్రాదిత్య విమర్ధనం |<br>
+                       సింహికా గర్భసంభూతం|తం రాహుం ప్రణమామ్యహం|| 
+                   </div>
+                   <div class="count1">
+                       <div>18 సార్లు||</div>
+                        <div><h2 id="counter8">0</h2></div>
+                        <div>
+                           <button onclick="increment8()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                           <button onclick="reset8()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                           <button onclick="decrement8()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>కేతు</div>
+                   <div>ఫలాశ పుష్పసంకాశం | తారకాగ్రహ మస్తకం |<br>
+                       రౌద్రం రౌద్రాత్మకం ఘోరం|తం కేతుం ప్రణమామ్యహం ||
+                   </div>
+                   <div class="count1">
+                       <div>7 సార్లు||</div>
+                        <div><h2 id="counter9">0</h2></div>
+                        <div>
+                           <button onclick="increment9()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                           <button onclick="reset9()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                           <button onclick="decrement9()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+               <div class="row1 number0">
+                   <div>శ్లో ||</div>
+                   <div> ఇతి వ్యాస ముఖోద్గీతం యః పఠేత్ సుసమాహితః |<br>
+                       దివా వా యది వా రాత్రి విఘ్న శానిర్భవిష్యతి ||
+                   </div>
+                   <div class="count1">
+                       <!-- <div>7 సార్లు||</div>
+                        <div><h2 id="counter">0</h2></div>
+                        <div>
+                           <button onclick="increment4()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus"></i></button>
+                           <button onclick="reset4()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus"></i></button>
+                           <button onclick="decrement4()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus"></i></button>
+                        </div> -->
+                    </div>        
+               </div>
+               <div class="row1 number0">
+                   <div>శ్లో ||</div>
+                   <div>నరనారీ నృపాణాం చ భవద్దు స్వప్న నాశనమ్ |<br>
+                       ఐశ్వర్యమతులం తేషా మారోగ్యం పుష్టి వర్ధనమ్ || 
+                   </div>
+                   <div class="count1">
+                       <!-- <div>7 సార్లు||</div>
+                        <div><h2 id="counter-label">0</h2></div>
+                        <div>
+                           <button onclick="increment4()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus"></i></button>
+                           <button onclick="reset4()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus"></i></button>
+                           <button onclick="decrement4()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus"></i></button>
+                        </div> -->
+                    </div>        
+               </div>
+               <div class="row1 number0">
+                   <div>శ్లో ||</div>
+                   <div> గ్రహ నక్షత్రజాః పీడా: తస్కరాగ్ని సముద్భవాః |<br>
+                       తాః సర్వాః ప్రశమం యాని వ్యాసో బ్రూతన సంశయః
+                   </div>
+                   <div class="count1">
+                       <!-- <div>7 సార్లు||</div>
+                        <div>
+                           <h2 id="counter-label">0</h2>
+                       </div>
+                        <div>
+                           <button onclick="increment4()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus"></i></button>
+                           <button onclick="reset4()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus"></i></button>
+                           <button onclick="decrement4()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus"></i></button>
+                        </div> -->
+                    </div>        
+               </div>
+               <div class="row1">
+                   <div>శ్లో ||</div>
+                   <div>ఆదిత్యాయ సోమాయ మంగళాయ బుధాయచ|<br>
+                       గురు శుక్ర శనిభ్యశ్చ రాహవే కేతవే నమః || 
+                   </div>
+                   <div class="count1">
+                       <div>9 సార్లు||</div>
+                        <div><h2 id="counter10">0</h2></div>
+                        <div>
+                           <button onclick="increment10()" class="addplusbutton"><i class="fa-solid fa-circle-plus addplus1"></i></button>
+                           <button onclick="reset10()" class="addplusbutton"><i class="fa-solid fa-rotate-left addplus1"></i></button>
+                           <button onclick="decrement10()" class="addplusbutton"><i class="fa-solid fa-circle-minus addplus1"></i></button>
+                        </div>
+                    </div>        
+               </div>
+           </div>
+               <!-- scripts for 10 counters -->
+        <script>
+                var value1 = 0;
+                document.getElementById("counter1").innerHTML = value1;
+               function increment1() {
+                   value1=value1+1;
+                   document.getElementById("counter1").innerHTML = value1;
+               }
+            
+               function reset1() {
+                   value1 = 0;
+                   document.getElementById("counter1").innerHTML = value1;
+               }
+            
+               function decrement1() {
+                   value1=value1-1;
+                   document.getElementById("counter1").innerHTML = value1;
+               }
+            </script>
+            <script>
+                var value2 = 0;
+                document.getElementById("counter2").innerHTML = value2;
+               function increment2() {
+                   value2=value2+1;
+                   document.getElementById("counter2").innerHTML = value2;
+               }
+            
+               function reset2() {
+                   value2 = 0;
+                   document.getElementById("counter2").innerHTML = value2;
+               }
+            
+               function decrement2() {
+                   value2=value2-1;
+                   document.getElementById("counter2").innerHTML = value2;
+               }
+            </script>
+            <script>
+                var value3 = 0;
+                document.getElementById("counter3").innerHTML = value3;
+               function increment3() {
+                   value3=value3+1;
+                   document.getElementById("counter3").innerHTML = value3;
+               }
+            
+               function reset3() {
+                   value3 = 0;
+                   document.getElementById("counter3").innerHTML = value3;
+               }
+            
+               function decrement3(){
+                   value3=value3-1;
+                   document.getElementById("counter3").innerHTML = value3;
+               }
+            </script>
+            <script>
+                var value4 = 0;
+                document.getElementById("counter4").innerHTML = value4;
+               function increment4() {
+                   value4=value4+1;
+                   document.getElementById("counter4").innerHTML = value4;
+               }
+            
+               function reset4() {
+                   value4 = 0;
+                   document.getElementById("counter4").innerHTML = value4;
+               }
+            
+               function decrement4(){
+                   value4=value4-1;
+                   document.getElementById("counter4").innerHTML = value4;
+               }
+            </script>
+            <script>
+                var value5 = 0;
+                document.getElementById("counter5").innerHTML = value5;
+               function increment5() {
+                   value5=value5+1;
+                   document.getElementById("counter5").innerHTML = value5;
+               }
+            
+               function reset5() {
+                   value5 = 0;
+                   document.getElementById("counter5").innerHTML = value5;
+               }
+            
+               function decrement5(){
+                   value5=value5-1;
+                   document.getElementById("counter5").innerHTML = value5;
+               }
+            </script>
+            <script>
+                var value6 = 0;
+                document.getElementById("counter6").innerHTML = value6;
+               function increment6() {
+                   value6=value6+1;
+                   document.getElementById("counter6").innerHTML = value6;
+               }
+            
+               function reset6() {
+                   value6 = 0;
+                   document.getElementById("counter6").innerHTML = value6;
+               }
+            
+               function decrement6(){
+                   value6=value6-1;
+                   document.getElementById("counter6").innerHTML = value6;
+               }
+            </script>
+            <script>
+                var value7 = 0;
+                document.getElementById("counter7").innerHTML = value7;
+               function increment7() {
+                   value7=value7+1;
+                   document.getElementById("counter7").innerHTML = value7;
+               }
+            
+               function reset7() {
+                   value7 = 0;
+                   document.getElementById("counter7").innerHTML = value7;
+               }
+            
+               function decrement7(){
+                   value7=value7-1;
+                   document.getElementById("counter7").innerHTML = value7;
+               }
+            </script>
+            <script>
+                var value8 = 0;
+                document.getElementById("counter8").innerHTML = value8;
+               function increment8() {
+                   value8=value8+1;
+                   document.getElementById("counter8").innerHTML = value8;
+               }
+            
+               function reset8() {
+                   value8 = 0;
+                   document.getElementById("counter8").innerHTML = value8;
+               }
+            
+               function decrement8(){
+                   value8=value8-1;
+                   document.getElementById("counter8").innerHTML = value8;
+               }
+            </script>
+            <script>
+                var value9 = 0;
+                document.getElementById("counter9").innerHTML = value9;
+               function increment9() {
+                   value9=value9+1;
+                   document.getElementById("counter9").innerHTML = value9;
+               }
+            
+               function reset9() {
+                   value9 = 0;
+                   document.getElementById("counter9").innerHTML = value9;
+               }
+            
+               function decrement9(){
+                   value9=value9-1;
+                   document.getElementById("counter9").innerHTML = value9;
+               }
+            </script>
+            <script>
+                var value10 = 0;
+                document.getElementById("counter10").innerHTML = value10;
+               function increment10() {
+                   value10=value10+1;
+                   document.getElementById("counter10").innerHTML = value10;
+               }
+            
+               function reset10() {
+                   value10 = 0;
+                   document.getElementById("counter10").innerHTML = value10;
+               }
+            
+               function decrement10(){
+                   value10=value10-1;
+                   document.getElementById("counter10").innerHTML = value10;
+               }
+            </script>
+    </body>
+    </html>
