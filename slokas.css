@@ -10,12 +10,21 @@ header{
     background-color: burlywood;
     padding:3px;
 }
+header nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
 header nav a{
     text-decoration: none;
     background-color: red;
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
     
 }
 header nav a:hover{
