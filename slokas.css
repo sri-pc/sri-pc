@@ -1,6 +1,7 @@
 body{
     background-color:rgb(220, 233, 234) ;
     
+    
   
 }
 h1{
@@ -41,14 +42,41 @@ p{
     font-weight: 600;
     font-size: 13px
 }
-.smallpara{
+
+/*durgadevi stotram*/
+.durgadevi_stotram{
     font-size: 20px;
+    word-spacing:5px ;
+    margin-left: 25px;
 }
+
+.durgadevi_stotram_h2{
+    margin-left: 10px;
+}
+
+/* adithya hrudayam */
 
 .adithyahrudayam{
     font-weight: 700;
     font-size: 15px;
+    margin-left: 20px;
+    word-spacing: 5px;
 }
+
+/* dakshinamurthy kavacham */
+
+.dakshinamurthy_kavacham{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 25px;
+    word-spacing: 5px;
+}
+
+.dakshinamurthy_kavacham_h4{
+    margin-left: 10px;
+
+}
+/* script button css */
 
 .addplus{
     font-size: 50px;
@@ -59,7 +87,4 @@ p{
 }
 .addplus1{
     font-size: 20px;
-}
-table,th,td{
-    border: 3px solid balck;
 }
