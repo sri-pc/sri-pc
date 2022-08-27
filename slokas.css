@@ -22,7 +22,7 @@ header nav a{
     text-decoration: none;
     background-color: red;
     color: white;
-    padding: 5px 10px;
+    padding: 5px;
     border-radius: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -39,15 +39,15 @@ nav{
     margin-bottom: 5px;
 }
 p{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 13px
 }
 
 /*durgadevi stotram*/
 .durgadevi_stotram{
-    font-size: 20px;
+    font-size: 15px;
     word-spacing:5px ;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .durgadevi_stotram_h2{
